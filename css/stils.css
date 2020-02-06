@@ -3,7 +3,26 @@
     line-height: 1.8;
     color: #f5f6f7;
   }
-  p {font-size: 16px;}
+  p {font-size: 20px;}
+  .first {position: absolute;
+          top:190px;
+          right:300px}
+  .second {position: absolute;
+          top:210px;
+          right:250px}
+  .third {position: absolute;
+          top:300px;
+          right:150px}
+  .fourth:hover {color:#f00;}
+  .fourth {position: absolute;
+          top:370px;
+          right:350px}
+  .fifth:hover {color:#f00;}
+  .fifth {position: absolute;
+          top:380px;
+          right:300px}
+         
+  
   .margin {margin-bottom: 45px;}
   .bg-1 { 
     background-color: #1abc9c; /* Green */
