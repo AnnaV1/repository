@@ -5,23 +5,64 @@
   }
   p {font-size: 20px;}
   .first {position: absolute;
-          top:190px;
+          top:230px;
           right:300px}
   .second {position: absolute;
-          top:210px;
+          top:250px;
           right:250px}
   .third {position: absolute;
-          top:300px;
+          top:320px;
           right:150px}
-  .fourth:hover {color:#f00;}
+  .fourth:hover {color:#D00909;}
   .fourth {position: absolute;
-          top:370px;
+          top:400px;
           right:350px}
-  .fifth:hover {color:#f00;}
+  .fifth:hover {color:#ffffff;}
   .fifth {position: absolute;
-          top:380px;
-          right:300px}
-         
+          top:450px;
+          right:270px}
+  .sixth {position: absolute;
+          top:600px;
+          right:250px}
+  .r:hover {color:#E74C3C;}
+  .r {position: absolute;
+          top:410px;
+          right:250px}
+  .a:hover {color:#F39C12;}
+  .a {position: absolute;
+          top:410px;
+          right:237px}
+  .i:hover {color:#F1C40F;}
+  .i {position: absolute;
+          top:410px;
+          right:230px}
+  .n:hover {color:#2ECC71;}
+  .n {position: absolute;
+          top:410px;
+          right:215px}
+  .b:hover {color:#85C1E9;}
+  .b {position: absolute;
+          top:410px;
+          right:200px}
+  .o:hover {color:#2471A3;}
+  .o {position: absolute;
+          top:410px;
+          right:185px}
+  .w:hover {color:#A569BD;}
+  .w {position: absolute;
+          top:410px;
+          right:165px}
+  .big {position: absolute;
+          top:320px;
+          right:100px}
+  .big:first-letter {
+    display:block;
+    margin:-7px;
+    color:#E92D2D;
+    font-size:300%;
+}
+  
+  
   
   .margin {margin-bottom: 45px;}
   .bg-1 { 
@@ -33,12 +74,17 @@
     color: #ffffff;
   }
   .bg-3 { 
-    background-color: #ffffff; /* White */
-    color: #555555;
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
   }
   .bg-4 { 
+    background-color: #ffffff; /* Nice */
+    color: #555555;
+  }
+  .bg-5 { 
     background-color: #2f2f2f; /* Black Gray */
     color: #fff;
+    padding-bottom: 100px;
   }
   .container-fluid {
     padding-top: 70px;
