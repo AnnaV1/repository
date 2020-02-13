@@ -10,6 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/stils.css">
+
 </head>
 <body>
 
@@ -27,15 +28,16 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">&#60div&#62</a></li>
-        <li><a href="#">&#60span&#62</a></li>
-        <li><a href="#">&#60code&#62</a></li>
-        <li><a href="#">&#60fancy&#62</a></li>
+        <li><a href="#div">&#60div&#62</a></li>
+        <li><a href="#span">&#60span&#62</a></li>
+        <li><a href="#code">&#60code&#62</a></li>
+        <li><a href="#fancy">&#60fancy&#62</a></li>
       </ul>
     </div>
   </div>
-</nav>
 
+</nav>
+<div class="content">
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
   <h3 class="margin">&#60div&#62</h3>
@@ -55,7 +57,7 @@
   <h3 class="margin">&#60code&#62</h3><br>
   <img src="images/code.jpg" class="img-responsive" style="display:inline" alt="PDiv" width="341" height="48">
   <p>A phrase tag. It defines a piece of computer code.</p>
-  <p>  <br>    </p>
+
 </div>
   
   <!-- Fourth Container (Grid) -->
@@ -84,12 +86,26 @@
     </div>
   </div>
 </div>
+  </div>
 
 <!-- Footer -->
 <footer class="container-fluid bg-5 text-center">
 
 </footer>
+      <script>
+window.onscroll = function() {myFunction()};
 
+var navbar = document.getElementById("myNavbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 </body>
 </html>
 
